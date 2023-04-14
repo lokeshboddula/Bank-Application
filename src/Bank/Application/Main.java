@@ -27,5 +27,9 @@ public class Main {
 
         //total interest for 3 years // HDFC Bank
         System.out.println(account3.totalInterest(3));
+
+        //change password
+        String update = account3.changePassword("789", "678");
+        System.out.println(update);
     }
 }

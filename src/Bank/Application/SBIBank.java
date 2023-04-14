@@ -26,11 +26,6 @@ public class SBIBank implements BankInterface{
 
         return -1;
     }
-    @Override
-    public String addMoney(int money, String password) {
-        balance  = balance + money;
-        return "" + money + " added successfully to " + accountNumber;
-    }
 
     @Override
     public String addMoney(int money) {
